@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Media Elements</title>
+</head>
+<body>
+    <h1>About Me</h1>
+
+    <!-- Picture Element with Responsiveness -->
+    <picture>
+        <source media="(max-width: 600px)" srcset="assets/Biye.jpg">
+        <source media="(max-width: 1024px)" srcset="assets/Crystal.jpg">
+        <source media="(min-width: 1025px)" srcset="assets/Efe.jpg">
+        <img src="assets/Biye.jpg" alt="A picture of me">
+    </picture>
+
+    <!-- Audio Element -->
+    <h2>Listen to My Message</h2>
+    <audio controls>
+        <source src="message.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Video Element -->
+    <h2>Watch My Video</h2>
+    <video controls width="400">
+        <source src="intro.mp4" type="video/mp4">
+        Your browser does not support the video element.
+    </video>
+
+    <!-- Embed Element -->
+    <h2>My Portfolio</h2>
+    <!-- <embed src="portfolio.pdf" type="application/pdf" width="100%" height="500px"> -->
+
+    <!-- Iframe Element -->
+    <h2>My Blog</h2>
+    <!-- <iframe src="https://example.com" width="100%" height="400"></iframe> -->
+
+    <p><a href="index.html">Back to Home</a></p>
+
+</body>
+</html>
